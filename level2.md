@@ -1,12 +1,14 @@
 # 커뮤니케이션 많이 해보세요!
 
-## I'm King of Communication
+## I'm the King of Communication
 
 제목 그대로다.
 
 나는 소통 왕이라 생각하면서 살았다.
 
 그리고 당연히 커뮤니케이션을 잘한다고 생각했다.
+
+왜 그렇게 생각했을까?
 
 유년 시절로 거슬러 올라가 보자.
 
@@ -44,7 +46,7 @@
 
 ## Not Communication King
 
-Level 2 페이먼츠 Step 2 미션 중이었다.
+페이먼츠 Step 2, 리액트를 활용하는 미션 중이었다.
 
 과거, 리액트를 다뤄본 경험은 5주간 useState와 useEffect만 사용하여 돌아가는 쓰레기를 만든 것이 전부였다.
 
