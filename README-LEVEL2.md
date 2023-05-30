@@ -4,7 +4,7 @@
 
 저는 우테코에 들어오기 전에는 스프링을 많이 사용하지 않아서 레벨 2에서 학습 방법에 대해 굉장히 많이 고민했었어요.
 
-레벨 1에서는 무작정 새벽까지 공부해서 공부량을 늘리는 것만 하더라도 충분했는데, 레벨 2에서도 똑같이 새벽까지 공부하려고 하니 다음날 컨디션이 너무 안 좋아지더라구요.
+레벨 1에서는 무작정 새벽까지 공부해서 공부량을 늘리는 것만 하더라도 충분했는데, 레벨 2에서도 똑같이 새벽까지 공부하려고 하니 다음날 컨디션이 너무 안 좋아지더라고요.
 
 거기다가 레벨 1에 비해 방대한 내용이라 어디까지 공부해야 할지, 어떤 걸 다음 내용으로 공부하는게 좋을지 많이 방황했어서 효과적인 공부 방법을 찾는 것에 집중했어요.
 
@@ -88,11 +88,9 @@
 
 [![이 컨퍼런스 영상](http://img.youtube.com/vi/RVO02Z1dLF8/0.jpg)](https://youtu.be/RVO02Z1dLF8?t=508)
 
+[https://youtu.be/RVO02Z1dLF8?t=508](https://youtu.be/RVO02Z1dLF8?t=508)
+
 위 컨퍼런스 영상에서는 총 3가지의 내용이 나오는데, 그중 하나는 Layered Architecture를 제대로 적용했는지에 대한 이야기입니다.
-
-제대로 된 Layered Architecture라면 Layer가 위에서 아래로 참조되어야 합니다.
-
-이 말은 Layer가 아래에서 위로 역류가 되지 말아야 한다는 것이고, DTO도 마찬가지입니다.
 
 이 영상에서는 import 문을 통해 역류하는 코드가 있는지 확인합니다. 그래서 내 코드가 제대로 된 계층화 아키텍처를 적용했는지 쉽게 확인할 수 있게 됩니다.
 
@@ -102,17 +100,19 @@
 
 [![이 테코톡 영상](http://img.youtube.com/vi/N06UeRrWFdY/0.jpg)](https://youtu.be/N06UeRrWFdY)
 
+[https://youtu.be/N06UeRrWFdY](https://youtu.be/N06UeRrWFdY)
+
 위 테코톡 영상에서는 테스트 코드 수행 시간을 최적화하는데 도움이 되는 영상입니다.
 
 이 영상에서도 코드로 바로 쉽게 적용할 수 있는 부분이 있습니다.
-
-Context Caching을 적용하는 것으로 같은 부류의 테스트는 Application Context을 재사용할 수 있도록 만드는 것입니다.
 
 <br/>
 
 ### 객체지향적 설계와 코드
 
 [![이 세미나 영상](http://img.youtube.com/vi/dJ5C4qRqAgA/0.jpg)](https://youtu.be/dJ5C4qRqAgA)
+
+[https://youtu.be/dJ5C4qRqAgA](https://youtu.be/dJ5C4qRqAgA)
 
 마지막으로 위 세미나 영상은 길이가 길지만, 제가 만들었던 설계가 객체지향적으로 잘 설계된 것인지, 코드도 객체지향적으로 만든 것인지 학습할 수 있는 영상입니다.
 
