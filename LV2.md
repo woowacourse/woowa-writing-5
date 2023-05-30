@@ -144,7 +144,7 @@ for (int t = 1; t <= 1000000; t++) {
 앨리스는 무사히 집으로 돌아갔지만, 만약 하트 여왕이 더 얄팍한 꼼수를 썼다면 어떻게 되었을까요? 예를 들면, 하트 여왕이 **질문을 할 때마다 카드를 한 장 골라서 다른 수로 바꾼다면**요?
 
 <p align="center">
-<img src="https://github.com/wzrabbit/boj-totamjung/assets/87642422/b1db8af7-c071-49ac-83a3-1e7db7e73778" width="700px" />
+<img src="https://github.com/wzrabbit/boj-totamjung/assets/87642422/13edd553-622a-4a34-a0e2-a62dbb1f9fb7" width="700px" />
 </p>
 
 위의 그림은 세 번째 카드에 적힌 수를 $3$ 에서 $1$ 로 바꾼 상황입니다. 카드에 적힌 수가 달라졌기에 이 이후의 누적합 배열의 값들을 다시 갱신해 주어야 합니다.
