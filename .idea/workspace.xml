@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="808cc8eb-647e-4705-9814-1c2797211587" name="Changes" comment="docs: 레벨 2 글쓰기 작성">
+    <list default="true" id="808cc8eb-647e-4705-9814-1c2797211587" name="Changes" comment="docs(Level2): 1차 퇴고">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Level2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level2.md" afterDir="false" />
     </list>
@@ -63,7 +64,9 @@
       <option name="presentableId" value="Default" />
       <updated>1684395491948</updated>
       <workItem from="1684395494745" duration="1093000" />
-      <workItem from="1685257324767" duration="3964000" />
+      <workItem from="1685257324767" duration="4955000" />
+      <workItem from="1685333837770" duration="4000" />
+      <workItem from="1685535597117" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="docs: 레벨 2 글쓰기 작성">
       <created>1684395974351</created>
@@ -72,14 +75,33 @@
       <option name="project" value="LOCAL" />
       <updated>1684395974351</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="docs(Level2): 1차 퇴고">
+      <created>1685261813839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685261813839</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="docs: 레벨 2 글쓰기 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: 레벨 2 글쓰기 작성" />
+    <MESSAGE value="docs(Level2): 1차 퇴고" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs(Level2): 1차 퇴고" />
   </component>
 </project>
