@@ -13,6 +13,6 @@
 
 '페스타고'는 대학교 축제를 더욱 즐겁게 만들기 위해 탄생했습니다. 이 서비스는 축제를 즐기는 학생들에게도, 축제를 준비하는 스태프들에게도 큰 도움이 됩니다. '페스타고'는 단순히 줄서기를 줄이는 것 이상의 가치를 제공합니다. 더 많은 시간을 행복한 축제 속 자신에게 투자해 보세요. 지금 '페스타고'에서 함께 만나요!
 
-<img src="festago.png" width="200" height="200"/>
+<img src="https://raw.githubusercontent.com/woowacourse/woowa-writing-5/6e59120caa677b19bcbe3832c8b029e3f696adf9/festago.png" width="200" height="200"/>
 
 
