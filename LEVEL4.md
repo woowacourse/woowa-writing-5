@@ -19,7 +19,8 @@
 
 결과는 매우 성공적이었다.
 
-(놀랍게도 본인은 이 사건을 잊은 채로 살아왔는데, 4년 전 꼬셔서 데려간 친구의 연락을 통해 떠올릴 수 있었다.)
+<img src="https://github.com/shackstack/woowa-writing-5/assets/102432453/0f6338cb-d201-4012-bafe-dc4666f61c4d" width="300" >
+
 
 > 수험생 시절 김민석
 
