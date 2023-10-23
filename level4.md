@@ -1,4 +1,6 @@
-# $i\hbar \frac{\partial}{\partial t} \Psi(\mathbf{r}, t) = \hat{H} \Psi(\mathbf{r}, t)$ 로는 문제를 해결할 수 없었다.  
+<img src="https://latex.codecogs.com/png.image?\inline&space;\huge&space;\dpi{150}\bg{white}&space;i\hbar\frac{\partial}{\partial&space;t}\Psi(\mathbf{r},t)=\hat{H}\Psi(\mathbf{r},t)" title=" i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t)=\hat{H}\Psi(\mathbf{r},t)" />
+
+# 로는 문제를 해결할 수 없었다.  
 
 파동의 상태를 표현하는 슈뢰딩거 방정식이다.  
 10대 때 방정식 한 줄 적어놓고 세상의 문제를 다 해결할 것 같이 말하는 과학이 너무 멋있어서 물리학과로 진학하게 되었다.  
