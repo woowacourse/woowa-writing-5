@@ -1,0 +1,64 @@
+name: 열려있는 모든 PR 머지
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  mergePRs:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Merge all open PRs
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const OWNER = "woowacourse";
+          const REPO = "woowa-writing-5";
+
+          async function getPRs(afterCursor) {
+            // GraphQL query to fetch the list of open pull requests
+            const query = `
+            {
+              repository(owner:"${OWNER}", name:"${REPO}") {
+                pullRequests(states:OPEN, first: 100, after: ${afterCursor ? `"${afterCursor}"` : null}) {
+                  nodes {
+                    number
+                    mergeable
+                  }
+                  pageInfo {
+                    endCursor
+                    hasNextPage
+                  }
+                }
+              }
+            }`;
+            
+            return await github.graphql(query);
+          }
+
+          let cursor;
+          let hasNextPage = true;
+          while (hasNextPage) {
+            const { repository: { pullRequests: { nodes: prs, pageInfo } } } = await getPRs(cursor);
+            const mergeablePRs = prs.filter(pr => pr.mergeable);
+            for (const pr of mergeablePRs) {
+              try {
+                const mergeResponse = await github.rest.pulls.merge({
+                  owner: OWNER,
+                  repo: REPO,
+                  pull_number: pr.number,
+                  merge_method: 'squash'
+                });
+
+                if (mergeResponse.data.merged) {
+                  console.log(`Merged (squashed) PR #${pr.number}`);
+                } else {
+                  console.log(`Could not merge PR #${pr.number}: ${mergeResponse.data.message}`);
+                }
+              } catch (error) {
+                console.error(`Error merging PR #${pr.number}:`, error);
+              }
+            }
+
+            cursor = pageInfo.endCursor;
+            hasNextPage = pageInfo.hasNextPage;
+          }
